@@ -10,13 +10,13 @@ from ibm_watson import ToneAnalyzerV3
 
 language_translator = LanguageTranslatorV3(
         version='2018-05-31',
-        apikey='2iccJUy0EzWEvqD_bVKtHaJZR-hLt95u6t3Dw9hi2wPw',
+        iam_apikey='2iccJUy0EzWEvqD_bVKtHaJZR-hLt95u6t3Dw9hi2wPw',
         url='https://gateway.watsonplatform.net/language-translator/api')
 
 
 tone_analyzer = ToneAnalyzerV3(
     version='2017-09-21',
-    apikey='9jP-LN_2Sv3zOHrRNMscJF7NxBIKkN9iypX8KyOCO4u_',
+    iam_apikey='9jP-LN_2Sv3zOHrRNMscJF7NxBIKkN9iypX8KyOCO4u_',
     url='https://gateway-wdc.watsonplatform.net/tone-analyzer/api'
 )
 
