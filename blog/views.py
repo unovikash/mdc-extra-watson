@@ -17,7 +17,7 @@ language_translator = LanguageTranslatorV3(
 tone_analyzer = ToneAnalyzerV3(
     version='2017-09-21',
     iam_apikey='9jP-LN_2Sv3zOHrRNMscJF7NxBIKkN9iypX8KyOCO4u_',
-    url='https://gateway-wdc.watsonplatform.net/tone-analyzer/api'
+    url='https://gateway.watsonplatform.net/tone-analyzer/api'
 )
 
 def post_list(request):
